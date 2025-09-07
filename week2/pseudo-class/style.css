@@ -1,0 +1,47 @@
+body{
+    front-family:"Time New Roman",Times,serif;
+    background-color:#A8AEC1 ;
+    margin: 30px;
+}
+h1{
+    colour:#D6DBB2;
+    text-align: center;
+
+}
+.paragraph{
+    background-color:#C19AB7 ;
+    padding: 10px;
+    border-radius: 5px;
+}
+#par{
+    color:#B5D2CB ;
+    font-weight: bold;
+}
+a{
+    color: rgb(162, 137, 120) ;
+    text-decoration: none;
+}
+a:hover{
+    color: deeppink;
+    
+}
+p::first-letter{
+    font-size: 200%;
+    color:#D0E3CC;
+    font-weight: bold;
+}
+span{
+    font-style: formal;
+    background-color: #92896a;
+    color:#DBD9DB;
+}
+p{
+    font-size: 45px;
+}
+h1{
+    font-size: 65px;
+    color:#415a77;
+    text-decoration: underline;
+}
+
+
