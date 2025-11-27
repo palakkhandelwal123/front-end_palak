@@ -1,0 +1,28 @@
+li{
+    font-size: 20px;
+    
+}
+p::first-letter{
+    font-size: 200%;
+    color:#807070;
+    font-weight: bold;
+}
+h1{
+    font-size: 65px;
+    color:#424c5e;
+    text-decoration: underline;
+    text-align: center;
+}
+p{
+    font-size: 35px;
+}
+body{
+    front-family:"Time New Roman",Times,serif;
+    background-color:#9DA9A0 ;
+    margin: 40px;
+}
+.paragraph{
+    background-color:#C19AB7 ;
+    padding: 10px;
+    border-radius: 5px;
+}

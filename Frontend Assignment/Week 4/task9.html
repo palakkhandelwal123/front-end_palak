@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Space Animation</title>
+
+<style>
+body {
+  background: black;
+}
+.rocket {
+  position: relative;
+  width: 120px;
+  animation: fly 5s infinite linear;
+}
+.astronaut {
+  position: absolute;
+  top: 120px;
+  width: 100px;
+  animation: float 3s infinite ease-in-out;
+}
+@keyframes fly {
+  from { transform: translateY(300px); }
+  to   { transform: translateY(-300px); }
+}
+@keyframes float {
+  0% { transform: translateX(0px); }
+  50% { transform: translateX(20px); }
+  100% { transform: translateX(0px); }
+}
+</style>
+</head>
+<body>
+
+<img src="https://www.google.com/search?q=rocket+image+animated&sca_esv=41170075ba466ac6&sxsrf=AE3TifNv_hnwNUtbkh3dr2wl9HqxPoP--g%3A1763974452546&ei=NB0kabGAIf-LseMPnMzNyQg&oq=rocket+imaeg+animat&gs_lp=Egxnd3Mtd2l6LXNlcnAiE3JvY2tldCBpbWFlZyBhbmltYXQqAggAMgcQABiABBgNMgYQABgWGB4yCBAAGIAEGKIEMggQABiABBiiBEj5K1CxA1j-DnABeAGQAQCYAekBoAHVC6oBBTAuNS4zuAEByAEA-AEBmAIJoAKlDMICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgIHECMYsAIYJ8ICBxAhGKABGArCAgUQIRifBcICCBAAGBYYChgewgIIEAAYCBgNGB7CAgsQABiABBiGAxiKBZgDAOIDBRIBMSBAiAYBkAYKkgcFMS41LjOgB5cvsgcFMC41LjO4B5wMwgcHMC4xLjYuMsgHNA&sclient=gws-wiz-serp#vhid=0wzia25OgfTf3M&vssid=_PR0kaeHpGPKcseMPwPq88AI_85" class="rocket">
+<img src="astronaut.png" class="astronaut">
+
+</body>
+</html>

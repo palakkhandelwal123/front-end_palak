@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Us</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f7ff;
+            margin: 0;
+        }
+
+        /* ID selector */
+        #main-title {
+            text-align: center;
+            color: #0051ff;
+            padding: 20px;
+            text-transform: uppercase;
+        }
+
+        /* Class selector */
+        .container {
+            width: 75%;
+            margin: auto;
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0px 0px 10px rgba(50, 50, 50, 0.2);
+        }
+
+        /* Element selector */
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        /* RGBA */
+        .intro {
+            background: rgba(0, 128, 0, 0.15);
+            padding: 12px;
+            border-left: 4px solid green;
+        }
+
+        /* HSL */
+        .mission {
+            background: hsl(210, 80%, 90%);
+            padding: 12px;
+            border-left: 4px solid hsl(210, 90%, 50%);
+        }
+
+        /* Attribute selector */
+        a[data-link] {
+            display: inline-block;
+            margin-top: 15px;
+            background: #ff7300;  /* HEX */
+            padding: 12px 18px;
+            border-radius: 8px;
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Pseudo class */
+        a:hover {
+            background: rgb(255, 110, 0);
+            transform: scale(1.05);
+            transition: 0.3s;
+        }
+
+        /* Pseudo element */
+        p::first-letter {
+            font-size: 34px;
+            font-weight: bold;
+            color: purple;
+        }
+
+        footer {
+            background: #dbe7ff;
+            text-align: center;
+            padding: 12px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<h1 id="main-title">About Our Company</h1>
+
+<div class="container">
+
+    <p class="intro">We are a technology company focused on innovation and customer satisfaction.</p>
+
+    <p class="mission">Our mission is to make technology simple and useful for everyone.</p>
+
+    <a href="https://example.com" target="_blank" data-link="official">Learn More</a>
+</div>
+
+<footer>
+    © 2025 Our Company
+</footer>
+</body>
+</html>

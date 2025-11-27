@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Responsive Sidebar</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+}
+.sidebar {
+  width: 220px;
+  background: #004aad;
+  color: white;
+  height: 100vh;
+  padding: 20px;
+  position: fixed;
+}
+.sidebar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 12px 0;
+  font-size: 18px;
+}
+.sidebar a:hover {
+  background: #006eff;
+  padding: 5px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+@media (max-width: 600px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="sidebar">
+  <h2>Menu</h2>
+  <a href="#">Home</a>
+  <a href="#">Courses</a>
+  <a href="#">About</a>
+  <a href="#">Contact</a>
+</div>
+
+</body>
+</html>
